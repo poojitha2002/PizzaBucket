@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F28%2Ffa%2Ff0%2F28faf0cdc7a073e60abf339c731ebae6.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F507569820485959618%2F&tbnid=TINHDK4JV6nzLM&vet=12ahUKEwjw1L-_h-LsAhVriEsFHchBAfYQMyg_egQIARBE..i&docid=uHAzt4KfuMOwmM&w=1060&h=997&q=spy%20%20%20name%20clipart&ved=2ahUKEwjw1L-_h-LsAhVriEsFHchBAfYQMyg_egQIARBE');
+    background-size: cover;
+  }
+  

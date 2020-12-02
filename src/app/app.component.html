@@ -1,0 +1,54 @@
+
+<div class="back">
+  
+ <mat-toolbar color="primary">
+    
+    <span>Pizza Bucket</span>
+    <span class="example-spacer"></span>
+    <nav>
+      <a routerLink="/aboutq" routerLinkActive="active" class="hi">About Us</a>
+      <a routerLink="/login" routerLinkActive="active" class="hi" > login</a>
+      <a routerLink="/register" routerLinkActive="active" class="hi" > Register</a>
+    </nav>
+ 
+     </mat-toolbar> 
+  <mat-list>
+    <mat-list-item *ngFor="let f of foods">
+     <span class="hi">{{f.name}}</span>
+      <span class="example-spacer"></span>
+      <button mat-flat-button color="accent" routerLink={{f.link}}>Know More!</button>
+      </mat-list-item>
+
+  </mat-list>
+ <iframe
+  allow="microphone;"
+  width="350"
+  height="430"
+  src="https://console.dialogflow.com/api-client/demo/embedded/41709d24-e3f5-4651-913e-8ac29790e733">
+</iframe>
+
+ 
+
+<router-outlet></router-outlet>
+
+<div class="back">
+<h1 style="background-color:powderblue;">
+  Contact Us
+</h1>
+<p class="hello">
+  Maruti Nagar, Vijayawada,Andhra Pradesh.
+</p>
+<h1 style="background-color:powderblue;">Open Hours</h1>
+
+<ul class="hello">Monday-Friday: 9am to 12am</ul>
+<ul  class="hello">Saturday-Sunday: 24 Hour Open</ul>
+<ul  class="hello">Breakfast: 7am to 12pm</ul>
+<ul  class="hello">Lunch:12pm to 4pm</ul>
+<ul  class="hello">Snacks:4pm to 7pm</ul>
+<ul  class="hello">Dinner: 7pm to 12am</ul>
+ 
+<p  class="hello">All rights reserved. Copyright © Jubilant FoodWorks Ltd.</p>
+
+
+</div>
+</div>

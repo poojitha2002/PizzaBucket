@@ -1,0 +1,29 @@
+.example-spacer {
+    flex: 1 1 auto;
+    
+  }
+nav a.active{
+      color: #039be5;
+}
+  .back{
+      background-image: url("C:\Users\user\Desktop\sdpp\src\assets\pngtree-seasoning-ingredients-spice-h5-background-image_133790.jpg");
+      height:100%;
+      background-position:center;
+      background-repeat:no-repeat;
+    background-size: cover;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+    
+  }
+  .hi{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        color:pink;
+        font-weight: bold;
+  }
+  .hello{
+      font-size: 30px;
+      color:rgb(0, 255, 55);
+  }
